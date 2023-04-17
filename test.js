@@ -529,7 +529,6 @@ async function main() {
         headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'Authorization': 'Bearer ' + token},
     };
     const response_i = await axios(request_i)
-    console.log(response_i.data);
 
     var urls = response_i; 
     var resposta_16 = 0;
